@@ -77,4 +77,8 @@ function draw(data, ctx) {
     ctx.closePath();
     ctx.fillStyle = data.color;
     ctx.fill();
+
+    ctx.strokeStyle = 'black';
+    ctx.lineWidth = 3;
+    ctx.stroke();
 }
